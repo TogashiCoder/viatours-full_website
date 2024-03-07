@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/*NavBar background*/
+header{
+    width: 100%;
+    display: flex;
+    background-color: #FEF7F4;
+    color: #fff;
+    height: 56px; 
+    padding-left: 40px;
+    margin-top: -10px;
+    margin-left: -10px;
+
+
+}
+/*NavBar word sections  */
+.navword{
+    color: black;
+    border-bottom: none;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+/*logo navbar*/
+.logonav a img{
+    width: auto;
+    max-width: 100%;
+    padding: 10px 0 20px 5px;
+    margin-left: -14px;
+    
+}
+
+/*NavBar desply flex */
+header ul{
+    display: flex;
+    gap: 25px;
+}
+/*NavBar button  */
+.login_button{
+    background-color: #EB662B;
+    font-family: 'Arial', sans-serif;
+    color:white; 
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -20px;
+}
+/*Remove List Points*/
+.navlist li{
+    list-style: none;
+}
+
+/*------------------------Body----------------------------------*/
+
+/*------------------------main-----------------------------*/
+
+/*background main*/
+main{
+    background-color:#FEF7F4;
+    box-shadow: 5px 5px 18px;
+    width: 70%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    border-radius: 90px;
+
+}
+/*------------------------container-----------------------------*/
+/* container > left-sidz > left-Top */
+
+
+
+
+/*------------------------left-side-----------------------------*/
+
+/*------------------------left-Top-----------------------------*/
+
+.left-Top{
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.left-Top h1{
+    height: 30px;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style:oblique;
+}
+.left-Top p{
+    width: 320px;
+    line-height: 20px;    
+}
+
+
+
+/*------------------------left-side-----------------------------*/
+
+/*------------------------left-down-----------------------------*/
+.left-down{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+
+.inputStyle{
+    width: 310px;
+    height: 20px;
+    background-color:#FDE3D8;
+    border-radius: 10px;
+    border: none;
+}
+
+#Message{
+    height:270px ;
+}
+
+
+
+
+/*------------------------container-----------------------------*/
+
+/*------------------------righ-side-----------------------------*/
+
+.container{
+    display: flex;
+}
+
+.right-side img{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: -40px;
+}
+
+
