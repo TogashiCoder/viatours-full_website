@@ -6,6 +6,10 @@
     font-weight: 100;
     font-style: normal;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 
 /*NavBar background*/
 header{
@@ -63,7 +67,7 @@ header ul{
 /*background main*/
 main{
     background-color:#FEF7F4;
-    box-shadow: 5px 5px 18px;
+    box-shadow: 1px 10px 30px lightgrey;
     width: 70%;
     height: 700px;
     margin-left: auto;
@@ -110,7 +114,7 @@ main{
 
 .inputStyle{
     width: 310px;
-    height: 20px;
+    height: 25px;
     background-color:#FDE3D8;
     border-radius: 10px;
     border: none;
@@ -132,10 +136,41 @@ main{
 }
 
 .right-side img{
-    width: 500px;
-    height: 500px;
+    width: 430px;
+    height: 430px;
     margin-top: 50px;
     margin-left: -40px;
 }
 
 
+/*------------------------footer-----------------------------*/
+
+footer{
+    display: flex;
+    gap: 150px;
+    width:100%;
+    background-color: #FEF7F4;
+    height: 125px;
+    margin-top: 70px;
+   
+}
+
+.footer-info h3,p{
+    padding-left: 10px;
+}
+
+#copyright{
+    height: 40px;
+    width: 38px;
+}
+#facebook{
+    height: 40px;
+    width: 40px;
+}
+#x{
+    height: 40px;
+    width: 40px;
+}
+
+
+/* Version 2*/
