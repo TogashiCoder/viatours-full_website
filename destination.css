@@ -4,13 +4,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
-   
-}
+
 header {
     align-items: center;
     background-color: #FEF7F4;
-    height: 3em;
+    height: 4em;
     display: flex;
     gap: 2em;
     font-size: 90%;
@@ -40,7 +38,7 @@ a{
 .upper{
     background-image: url(images/destination_image/destination_background.jpg);
     background-size: cover;
-    padding: 4em;
+    padding: 5em;
 }
 
 h1{
@@ -75,16 +73,23 @@ input{
     border: none;
 }
 
+#nos{
+    color: black;
+    text-align: left;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .cartes{
     display: flex;
-    margin-top: 5em;
     margin-right: 6em;
     margin-left: 3em;
     gap: 3em;
 }
 
 .carte{
-    margin-top: 6em;
+    margin-top: 2em;
     margin-bottom: 4em;
     width: 260px;
     background-color: white;
@@ -150,10 +155,39 @@ input{
 
 
 footer {
+    display: flex;
+    gap: 14em;
     background-color: #FEF7F4;
     list-style-type: none;
+    height: 5em;
+    padding-top:2em;
+    padding-bottom:1em;
 }
 
 footer ul {
     text-decoration: none;
+    list-style-type: none;
+    line-height: 1.5em;
+    margin-left: 3em;
+}
+
+.social h4{
+   
+   margin-bottom: 1em ;
+}
+
+.social-media{
+    width: 20px;
+    margin-right: 1em;
+}
+
+.copyRight{
+    display: flex;
+    gap: 0.7em;
+    padding-left:5em ;
+    padding-top: 3em;
+}
+
+h5{
+    margin-top: 0.5em;
 }
