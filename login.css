@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;/*hmch*/
+    padding:0;
+}
+@media screen and (min-width:832px) {
+    header{
+        display: flex;
+    
+       
+    }
+    .nav a{
+        font-size: medium;
+        position: relative;
+        left: 60px;
+        top:28px;
+        margin-right: 25px;
+    }
+    
+}
+@media screen and (max-width:832px) {
+    header{
+        display: grid;
+    }
+    .nav a{
+        font-size:small;
+        position: relative;
+        left: 60px;
+        top:5px;
+        margin-right: 25px;
+        }
+    
+}
+header {
+    position: relative;
+    background-color: #FEF7F4;
+    width: 100%;
+    height: 10vh;
+}
+
+.logo {
+    position: relative;
+    top:40%;
+    left: 11px;
+    width:100px ;
+    
+
+}
+.nav a{
+    color: Black;
+   
+   
+}
+
+h1{
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(images/login_image/aviooo.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+    justify-content: center;
+}
+
+form{
+    width: 270px;
+    height: 300px;
+    display: grid;
+    place-content:center;
+    background-color: #FDF0EA;
+    color: black;
+    border-radius: 20px;
+    padding-bottom: 1px;
+    margin: 60px;
+    padding:20px;
+    
+    
+    
+}
+
+input{
+    height:25px;
+    width: 220px;
+    border-radius: 12px;
+    background-color: white;
+    border-color:white;
+    box-shadow: 1px 1px 1px 1px;
+    place-content: center;
+    margin-top: 5px;
+    margin-bottom: -1%;
+      
+}
+
+button{
+    height: 30px;
+    width: 230px;
+    color: white;
+    background-color: #F28555;
+    border-color: black;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
