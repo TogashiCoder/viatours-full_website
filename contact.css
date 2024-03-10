@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-* {
+/* * {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
-}
+} */
 body{
     margin: 0;
     padding: 0;
@@ -39,6 +39,13 @@ header{
     margin-left: -14px;
     
 }
+
+/* burger_menu_icone */
+.icone{
+    position: relative;
+    display: none;
+}
+
 
 /*NavBar desply flex */
 header ul{
@@ -189,7 +196,101 @@ footer{
 
 /*------------------------Responsive-----------------------------*/
 
-@media (max-width:430px)
-{
-    
+@media (max-width: 430px) {
+    /* Hide the right-side image on smaller screens */
+    .right-side img {
+        display: none;
+    }
+
+    .icone{
+        display: block;
+        position: relative;
+        top:-55px;
+        left: 250px;
+        width: 40px;
+        height: 5px;
+    }
+
+    main{
+        height: 600px;
+    }
+
+    .inputStyle{
+        height: 35px;
+    }
+
+    .send{
+        height: 50px;
+    }
+
+
+    /* Adjust font sizes for better readability on small screens */
+    body {
+        font-size: 14px;
+    }
+
+    /* Make the container width full to utilize the available space */
+    main {
+        width: 100%;
+    }
+
+    /* Adjust padding or margins for better spacing on small screens */
+    .left-Top {
+        padding-left: 20px;
+    }
+
+    .left-down{
+        margin-left: -80px;
+    }
+
+    /* Adjust width and styles for form inputs on small screens */
+    .inputStyle {
+        width: 100%;
+        /* box-sizing: border-box; */
+    }
+
+    #Message {
+        height: 150px; /* Adjust as needed */
+    }
+
+    .send {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* Hide the list items in the navbar for smaller screens */
+    header ul {
+        display: none;
+    }
+
+    .logonav a img {
+        margin-left: 60px;
+        
+    }
+
+
+    .left-Top p{
+        margin-top: -10px;
+        text-align: center;
+    }
+    .left-Top h1{
+        font-weight: bold;
+        margin-left: 85px;
+        margin-top: -15px;
+    }
+
+    .footer-images img{
+        display: none;
+    }
+
+    .footer-info{
+        font-size: 13px;
+        /* display: flex; */
+        gap: 20px;
+    }
+
+
+
 }
+
+/* version final */
