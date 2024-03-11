@@ -278,6 +278,7 @@ footer{
 
     .footer-info{
         font-size: 13px;
+        /* display: flex; */
         gap: 20px;
     }
 
